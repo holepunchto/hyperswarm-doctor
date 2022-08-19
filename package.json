@@ -1,5 +1,5 @@
 {
-  "name": "doctor",
+  "name": "@hyperswarm/doctor",
   "version": "0.0.0",
   "description": "Debugging tool for the swarm",
   "main": "index.mjs",
