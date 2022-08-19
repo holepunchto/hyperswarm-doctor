@@ -1,0 +1,26 @@
+{
+  "name": "doctor",
+  "version": "0.0.0",
+  "description": "Debugging tool for the swarm",
+  "main": "index.mjs",
+  "bin": {
+    "hyperswarm-doctor": "./index.mjs"
+  },
+  "dependencies": {
+    "@hyperswarm/dht": "^6.2.1",
+    "minimist": "^1.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperswarm/doctor.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperswarm/doctor/issues"
+  },
+  "homepage": "https://github.com/hyperswarm/doctor"
+}
