@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperswarm/doctor.git"
+    "url": "https://github.com/holepunchto/hyperswarm-doctor.git"
   },
   "scripts": {
     "test": "standard"
@@ -23,7 +23,7 @@
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyperswarm/doctor/issues"
+    "url": "https://github.com/holepunchto/hyperswarm-doctor/issues"
   },
-  "homepage": "https://github.com/hyperswarm/doctor"
+  "homepage": "https://github.com/holepunchto/hyperswarm-doctor"
 }
