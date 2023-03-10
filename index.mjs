@@ -4,6 +4,14 @@ import DHT from '@hyperswarm/dht'
 import minimist from 'minimist'
 import b4a from 'b4a'
 
+import Socket from 'udx-native/lib/socket.js'
+
+const bind = Socket.prototype.bind
+Socket.prototype.bind = function (port) {
+  console.log('bind was called', ...arguments, 'but binding to', port, '0.0.0.0')
+  return bind.call(this, port, '0.0.0.0')
+}
+
 const argv = minimist(process.argv, {
   alias: { server: 's', client: 'c' }
 })
