@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import DHT from '@hyperswarm/dht'
+import DHT from 'hyperdht'
 import minimist from 'minimist'
 import b4a from 'b4a'
 

@@ -7,7 +7,7 @@
     "hyperswarm-doctor": "./index.mjs"
   },
   "dependencies": {
-    "@hyperswarm/dht": "^6.2.1",
+    "hyperdht": "^6.5.2",
     "minimist": "^1.2.6"
   },
   "devDependencies": {
