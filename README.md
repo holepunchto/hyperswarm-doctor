@@ -16,4 +16,4 @@ hyperswarm-doctor --client=pubkey # connect to a test server and test transfer
 
 ## License
 
-MIT
+Apache-2.0
